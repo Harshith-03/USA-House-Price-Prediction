@@ -27,12 +27,9 @@ The goal of this project was to create a machine learning model to predict house
 
 The dataset was obtained from Kaggle.
 
-- **Title**: *House Sales in King County, USA*  
-- **Author**: Dean De Cock  
-- **Link**: [Kaggle Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)  
-- **Description**: This dataset contains house sale prices for King County, USA, including Seattle. It includes 21,613 observations and 21 features such as square footage, bedrooms, bathrooms, and more.
-
-Please ensure you follow Kaggle's terms of use when using this dataset.
+- **Title**: *USA House Prices*  
+- **Author**: Fırat Özcan  
+- **Link**: [Kaggle Dataset](https://www.kaggle.com/datasets/fratzcan/usa-house-prices) 
 
 ---
 
