@@ -7,6 +7,8 @@ This project explores the relationship between various features of homes in the 
 ## **1. Feature Importance**
 The feature importance plot (shown in the repository) highlights which features had the greatest influence on the predictions made by the **tuned Random Forest model**.
 
+![Feature Importance Plot](images/feature_importance.png "Feature Importance")
+
 ### **Key Insights**
 - **Living Area (`sqft_living`)**: The most important predictor of house prices, with a feature importance of ~20%.
 - **Above Ground Square Footage (`sqft_above`)**: Another significant feature, indicating that the overall size of the property above ground greatly impacts prices.
@@ -22,6 +24,8 @@ This analysis suggests focusing on features like square footage and the number o
 ## **2. Actual vs. Predicted Prices**
 The scatter plot comparing **Actual Prices** vs. **Predicted Prices** gives us a visual representation of the model's performance. 
 
+![Actual vs. Predicted Prices](images/actual_vs_predicted.png "Actual vs. Predicted Prices")
+
 ### **Key Observations**
 - **Trend Alignment**: The red dashed line represents a perfect prediction scenario (i.e., where actual prices equal predicted prices). Many points cluster around this line, indicating the model captured the overall trend well.
 - **Outliers**: A few outliers deviate significantly from the line, suggesting some houses had prices that were harder to predict accurately, due to external factors.
@@ -34,6 +38,8 @@ While the tuned Random Forest model performs better than the other two, further 
 
 ## **3. Residual Plot**
 The residual plot provides a detailed look at the errors made by the model (difference between actual and predicted values).
+
+![Residual Plot](images/residual_plot.png "Residual Plot")
 
 ### **Observations**
 - **Uniform Residual Distribution**: Residuals are mostly centered around 0, which indicates the model has no significant bias in underestimating or overestimating prices.
