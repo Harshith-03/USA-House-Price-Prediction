@@ -7,7 +7,8 @@ This project explores the relationship between various features of homes in the 
 ## **1. Feature Importance**
 The feature importance plot (shown in the repository) highlights which features had the greatest influence on the predictions made by the **tuned Random Forest model**.
 
-![Feature Importance Plot](images/feature_importance.png "Feature Importance")
+![Feature Importance Plot](https://github.com/user-attachments/assets/ddbbb1f0-345f-4cd5-997f-6317dd21ccff))
+
 
 ### **Key Insights**
 - **Living Area (`sqft_living`)**: The most important predictor of house prices, with a feature importance of ~20%.
