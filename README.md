@@ -6,7 +6,7 @@ This project predicts house prices in the USA using a machine learning pipeline.
 
 ## **Project Overview**
 
-The goal of this project was to create a machine learning model to predict house prices accurately based on various features. We used a Kaggle dataset, explored the data, and trained different models. The best-performing model was a tuned Random Forest Regressor.
+The goal of this project was to create a machine learning model to predict house prices accurately based on various features. I used a Kaggle dataset, explored the data, and trained different models. The best-performing model was a tuned Random Forest Regressor.
 
 ---
 
