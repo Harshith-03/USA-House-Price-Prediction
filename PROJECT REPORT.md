@@ -7,7 +7,7 @@ This project explores the relationship between various features of homes in the 
 ## **1. Feature Importance**
 The feature importance plot (shown in the repository) highlights which features had the greatest influence on the predictions made by the **tuned Random Forest model**.
 
-![Feature Importance Plot](https://github.com/user-attachments/assets/ddbbb1f0-345f-4cd5-997f-6317dd21ccff))
+![Feature Importance Plot](https://github.com/user-attachments/assets/ddbbb1f0-345f-4cd5-997f-6317dd21ccff)
 
 
 ### **Key Insights**
@@ -25,7 +25,8 @@ This analysis suggests focusing on features like square footage and the number o
 ## **2. Actual vs. Predicted Prices**
 The scatter plot comparing **Actual Prices** vs. **Predicted Prices** gives us a visual representation of the model's performance. 
 
-![Actual vs. Predicted Prices](images/actual_vs_predicted.png "Actual vs. Predicted Prices")
+![Actual vs. Predicted Prices](https://github.com/user-attachments/assets/9e305725-6ded-4ad5-b4f2-4d546f3642b8)
+
 
 ### **Key Observations**
 - **Trend Alignment**: The red dashed line represents a perfect prediction scenario (i.e., where actual prices equal predicted prices). Many points cluster around this line, indicating the model captured the overall trend well.
@@ -40,7 +41,9 @@ While the tuned Random Forest model performs better than the other two, further 
 ## **3. Residual Plot**
 The residual plot provides a detailed look at the errors made by the model (difference between actual and predicted values).
 
-![Residual Plot](images/residual_plot.png "Residual Plot")
+
+![Residual Plot](https://github.com/user-attachments/assets/41afca0d-4708-447f-a51a-a416192f6cc4)
+
 
 ### **Observations**
 - **Uniform Residual Distribution**: Residuals are mostly centered around 0, which indicates the model has no significant bias in underestimating or overestimating prices.
